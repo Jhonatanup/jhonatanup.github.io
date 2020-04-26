@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Jhonatan Leandro</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item"><a class="nav__button" href="#main">About</a></li>
+            <li class="nav__item"><a class="nav__button" href="#projects">Projects</a></li>
+            <li class="nav__item"><a class="nav__button" href="#contact">Contact</a></li>        
+        </ul>
+    </nav>  
+    <main class="main" id="main">
+        <img class="main_img" src="./Assets/Black_Man_Using_Laptop.svg" alt="">
+        <div class="introduction">
+            <h1 class="introduction__h1">Hey, I'm Jhonatan!</h1>
+            <p class="introduction__p">a (wannabe) web developer</p>
+        </div> 
+    </main>
+    <section class="projects" id="projects">
+        <h2 class="projects__title">These are some of my projects</h2>
+        <ul class="projects__list">
+            <li class="projects__item">
+                <a href="https://github.com/Jhonatanup/weatherApp" target="_blank" class="projects__a">
+                <div class="project">
+                    <i class="material-icons project_i">desktop_mac</i>
+                    <div class="project__description">
+                        <p><strong>Weather Application</strong></p>
+                        <p>Weather forecast application developed in ReactJS using styled components, axios, react hooks.</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="https://github.com/Jhonatanup/be-the-hero" target="_blank" class="projects__a">
+                <div class="project">
+                    <i class="material-icons project_i">desktop_mac</i>
+                    <div class="project__description">
+                        <p><strong>Be the hero</strong></p>
+                        <p>Project that aims to connect people who are willing to help ONGs.</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="https://github.com/Jhonatanup/ListingUsers" target="_blank" class="projects__a">
+                <div class="project">
+                    <i class="material-icons project_i">desktop_mac</i>
+                    <div class="project__description">
+                        <p><strong>Listing Users</strong></p>
+                        <p>Javascript application that queries the Github API to query users and lists the user, avatar, description and the link to the profile.</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+            <li class="projects__item">
+                <a href="https://github.com/Jhonatanup/desafioCodenation" target="_blank" class="projects__a">
+                <div class="project">
+                    <i class="material-icons project_i">desktop_mac</i>
+                    <div class="project__description">
+                        <p><strong>Codenation Challenge</strong></p>
+                        <p>I used nodejs to read a file containing a cipher, I performed the decryption, saved it in the original file and sent it via post request to pass in the challenge..</p>
+                    </div>
+                </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+    <section class="colaborate">
+        <h2 class="colaborate__title">Let's work together...</h2>
+        <img src="./Assets/Group_of_Black_Men_and_Women_in_Office_Setting.svg" alt="" class="colaborate__img">
+        <p class="colaborate__p">You can find me at:</p>
+        <div class="links" id="contact">
+            <ul class="links__list">
+                <li class="links__item">
+                    <a href="https://github.com/Jhonatanup" target="_blank" class="links__a">
+                        <div class="links__div">  
+                            <i class="fa fa-github links__i"></i>
+                            <p class="links__p">Github</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="links__item">
+                    <a href="https://www.linkedin.com/in/jhonatancorrealeandro/" target="_blank" class="links__a">
+                        <div class="links__div">
+                            <i class="fa fa-linkedin-square links__i"></i>
+                            <p class="links__p">Linkedin</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer_createdby">© Created by jhonatanup</p>
+    </footer>
+</body>
+</html>
